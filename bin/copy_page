@@ -45,7 +45,7 @@ function create_new_month_page() {
       -H 'Accept: application/json' \
       -H 'Content-Type: application/json' \
       -d "{
-        \"title\": \"${page_title_prefix} ${next_month} 週報\",
+        \"title\": \"${page_title_prefix}週報 ${next_month}\",
         \"type\": \"page\",
         \"space\": { \"key\": \"${SPACE_KEY}\"},
         \"ancestors\": [{ \"id\": \"${latest_year_page_id}\" }]
