@@ -11,7 +11,7 @@
 
 ```sh
 # Get API token of Confluence
-cd smart_confluence
+cd neo_smart_confluence
 cp -i config.sample.sh config.sh
 # edit config.sh
 bin/copy_page
